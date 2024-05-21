@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Sora:wght@400;700&display=swap');
+
+.page-container {
+  padding-top: 25px;
+  padding-bottom: 0px;
+  font-family: 'Sora', sans-serif;
+  background-color: #000a14;
+  color: white;
+  min-height: 100vh;
+}
+.text{
+  color:#ffffff;
+}
+
+.page{
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  height: fit-content;
+  border-color: #FFFFFF10;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 120px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  line-height: 1.8;
+  padding: 30px 30px 30px 30px;
+}
+.page1{
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #FFFFFF10;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 70px 30px 120px 30px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 30px 30px 30px 30px;
+  line-height: 1.8;
+}
+
+.page2{
+  align-items: center;
+  text-align: left;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  border-radius: 20px 20px 20px 20px;
+  width: 33%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #FFFFFF10;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 120px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  line-height: 1.8;
+  padding: 30px 30px 30px 30px;
+}
+.page2 img{
+  vertical-align: middle;
+    display: inline-block;
+  height: auto;
+  line-height: 1.5;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.upper-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 1px;
+}
+
+.purchase-button {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0D051F;
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.purchase-button1{
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #5E11FF 30%, #F87516 100%);
+  border-radius: 20px 20px 20px 20px;
+  padding: 20px 35px 20px 35px;
+}
+
+.purchase-button:hover {
+  background-color: #000000;
+  color: white;
+  border-radius: 1px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 50px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  text-align: left;
+  margin-right: 50px;
+}
+
+.sidebar-text {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #F87516 0%, #390464 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-text {
+  max-width: 75%;
+  text-align: left;
+}
+
+.main-text p {
+  font-family: "Sora", Sans-serif;
+  color: #ffffff;
+  margin-left: 6rem;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.rating{
+  display: block;
+  padding: 10px 10px;
+  margin:5px 5px;
+}
+
+.alignment{
+  max-width:60%;
+}
+.page h1{
+  color: #EEE5FF;
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main-text h1 {
+  font-family: "Sora", Sans-serif;
+  margin-top: 1rem;
+  font-size: 3rem;
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#description {
+  text-align: left;
+  padding-left: 20px;
+  max-width:100%;
+  font-size: 15px;
+  margin-top: 2rem;
+  color: #EEE5FFBD;
+  line-height: 1.6;
+}
+
+section {
+  padding: 10px 0px;
+}
+
+section img {
+  margin: 20px auto;
+  display: block;
+}
+
+footer {
+  color: #EEE5FFB8;
+  font-family: "Outfit", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  left: 0;
+  right:0;
+  position:absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 20px;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
+
+footer a {
+    transition: color 0.3s;
+    margin-left: 10px;
+    align-self: center;
+    float: right;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+canvas {
+  width: fit-content;
+  height: auto;
+}
